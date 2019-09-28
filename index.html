@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="reset" type="text/css" href="./assets/css/reset.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<script src="./assets/javascript/game.js"></script>
+    <div id="header">
+        <h1>Crystal Collector!</h1>
+    </div>
+
+    <div id="instructions">
+        <br>
+        <p>You will be given a random number at the start of the game</p>
+        <P>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score0</P>
+        <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time the game starts, the game will change the value of each crystal.</p>
+        <br>
+        <br>
+    </div>
+
+    <div id="randomNumDisplay">
+    </div>
+    $("#loss").text(loss);
+    <div id="win-loss">
+        <br>
+        <p id="win">Wins:</p>
+        <br>
+        <p id="loss">Losses:</p>
+    </div>
+
+    <br>
+
+    <div id="score-statement">
+        <h3>Your Total Score Is:</h3>
+    </div>
+
+    <div id="score">
+    </div>
+<br>
+    <div id="images">
+        <img id="green" src="./assets/images/emerald.jpg">
+        <img id="purple" src="./assets/images/purple_diamond.jpg">
+        <img id="red" src="./assets/images/ruby.jpg">
+        <img id="yellow" src="assets/images/yellow.jpg">
+    </div>
+</body>
+
+</html>

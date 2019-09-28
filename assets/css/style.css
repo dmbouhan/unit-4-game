@@ -1,0 +1,76 @@
+body {
+    background: black;
+
+}
+
+#header {
+    background-color: rgb(214, 97, 18);
+    color: white;
+    width: 275px;
+    padding: 2px;
+    text-align: center;
+}
+
+#instructions {
+    background-color: rgb(226, 199, 166);
+    color: green;
+    width: 500px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+#randomNumDisplay {
+    background-color: rgb(62, 133, 62);
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#win-loss {
+    float: left;
+    background-color: rgb(92, 250, 255);
+    padding: 5px;
+    height: 200px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+
+
+#score-statement {
+    background-color: teal;
+    color: white;
+    font-size: 1.5em;
+    width: 350px;
+}
+
+#score {
+    background-color: teal;
+    font-size: 1.5em;
+    color: white;
+    width: 500px;
+    height: 200px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#green {
+    height: 100px;
+}
+
+#purple {
+    height: 100px;
+}
+
+#red {
+    height: 100px;
+}
+
+#yellow {
+    height: 100px;
+}
